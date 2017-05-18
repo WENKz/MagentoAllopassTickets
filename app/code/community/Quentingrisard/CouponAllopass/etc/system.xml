@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <myconf translate="label">
+            <label>QuentinGrisard</label>
+            <sort_order>150</sort_order>
+        </myconf>
+    </tabs>
+    <sections>
+        <tab1 translate="label" module="adminhtml">
+            <label>CouponAllopass</label>
+            <tab>myconf</tab>
+            <sort_order>10</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <general translate="label comment">
+                    <label>General</label>
+                    <sort_order>50</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <auth_field translate="label comment">
+                            <label>AUTH ALLOPASS</label>
+                            <comment> // $AUTH doit contenir l'identifiant de VOTRE document  ex: XXXXX/XXXXXXX/XXXXXX</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </auth_field>
+                         <couponname_field translate="label comment">
+                            <label>code du coupon</label>
+                            <comment> </comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </couponname_field>
+
+                    </fields>
+                </general>
+            </groups>
+        </tab1>
+    </sections>
+</config>

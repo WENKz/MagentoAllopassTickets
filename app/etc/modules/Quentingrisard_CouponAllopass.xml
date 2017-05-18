@@ -1,0 +1,8 @@
+<config>
+  <modules>
+    <Quentingrisard_CouponAllopass>
+      <active>true</active>
+      <codePool>community</codePool>
+    </Quentingrisard_CouponAllopass>
+  </modules>
+</config>

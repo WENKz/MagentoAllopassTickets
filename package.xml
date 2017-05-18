@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>Quentingrisard_CouponAllopass</name>
+    <version>0.1.0</version>
+    <stability>beta</stability>
+    <license uri="http://quentingrisard.fr/LICENSE-EN.txt">EULA</license>
+    <channel>Community</channel>
+    <extends/>
+    <summary>Permet d'acheter des coupons de promotions avec allopass assign&#xE9; &#xE0; un client</summary>
+    <description>Permet d'acheter des coupons de promotions avec allopass assign&#xE9; &#xE0; un client</description>
+    <notes>N&#xE9;cessite Grazzitti Individual Promotions&#xD;
+&#xD;
+https://www.magentocommerce.com/magento-connect/individual-promotions-1.html</notes>
+    <authors><author><name>Grisard</name><user>Quentin</user><email>quentin.grisard@gmail.com</email></author></authors>
+    <date>2016-09-06</date>
+    <time>12:28:23</time>
+    <contents><target name="magecommunity"><dir name="Quentingrisard"><dir name="CouponAllopass"><dir name="Helper"><file name="Data.php" hash="a2ca64f9215f02121b3ee14a0ec2f686"/></dir><dir name="Model"><file name="Coupon.php" hash="7af132cd8132c19846c6a7fa64b4c5e8"/><dir name="Mysql4"><dir name="Coupon"><file name="Collection.php" hash="229b0b4e644fcdc3a4ffcf1dd0df7b6d"/></dir><file name="Coupon.php" hash="5deaac6d2f5e60a53aa4b35888d6498d"/></dir><dir name="Type"><file name="Onepage.php" hash="bcc213399c750229adfb221c4f4b596b"/></dir></dir><dir name="controllers"><file name="IndexController.php" hash="e62000e28793eb5f1d8776d43a69e5e7"/></dir><dir name="etc"><file name="adminhtml.xml" hash="1cdb1ad435a77373a0af3e158dd1a21a"/><file name="config.xml" hash="c266656a397a279a4284ea12453c1e03"/><file name="system.xml" hash="898bf5590dff113f094edddd24deb0e0"/></dir><dir name="sql"><dir name="couponallopass_setup"><file name="mysql4-install-0.1.0.php" hash="ee257c2793acf1192dc8cc5eb8eaa997"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Quentingrisard_CouponAllopass.xml" hash="7eb6125927b827cae1645612cdfe8fb3"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>7.0.0</max></php></required></dependencies>
+</package>
